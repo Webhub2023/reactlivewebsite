@@ -9,7 +9,7 @@ const Comman = (props) => {
   <div className="container-fluid nav bg">
         <div className="row">
              <div className="col-10 max-auto">
-              <div className="col-md-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex justify-content-center flex-column">
+              <div className="col-md-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex justify-content-center flex-row">
                 <div className="row">
                 <h1> 
                    {props.name}
@@ -24,8 +24,8 @@ const Comman = (props) => {
                         </NavLink>
                     </div>
               </div>
-              <div className="col-lg-6 order-1 order-lg-2 header-img">
-                <img src={props.imgsrc} className="img-fluid animated" alt="home img" />
+              <div className="col-lg-6 order-2 order-lg-2 header-img " >
+                <img src={props.imgsrc} className="img-fluid animated" alt="home img" width="auto" height="auto" />
 
               </div>
               </div>
