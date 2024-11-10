@@ -1,6 +1,5 @@
 {
   "name": "project",
-  "homepage": "https://Webhub2023.github.io/reactlivewebsite",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
