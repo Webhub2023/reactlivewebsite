@@ -6,7 +6,6 @@ const About = () => {
   return (
 
   <>
-  hello
   <Comman name=" Welcome to About page" imgsrc={web} visit="/contact" btname="Contact now" />
   </>
  
